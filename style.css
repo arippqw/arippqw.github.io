@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'opens';
+    src: url('src/font/openSansReguler.ttf');
+}
+
+h1, h3 {
+    font-family: 'opens';
+}
+
+*{
+    transition: 500ms ease-in-out;
+}
+
+h1 {
+    animation: nime 5s ease-in-out infinite;
+}
+
+
+@keyframes nime {
+    0% {
+        clip-path: circle(8.1% at 53% 84%);     
+         }
+    30% {
+        clip-path: circle(8.1% at 50% 50%);   
+        background-color: aquamarine;  
+       }
+    55% {
+        clip-path: circle(17.1% at 0 58%);  
+        background-color: cornflowerblue; 
+       }
+    70% {
+        clip-path: circle(17.1% at 100% 52%);   
+        background-color: darkolivegreen;
+         }
+    80% {
+        clip-path: circle(35.9% at 51% 83%);    
+        background-color: darkslateblue; 
+         }
+    90% {
+        clip-path: circle(83.4% at 51% 83%); 
+        background-color: darkgoldenrod;
+        color: #fff;
+       }
+    100% {
+        clip-path: circle(8.1% at 53% 84%);  
+        background-color: #fff;
+        color: black;
+    }
+}
+
+
+
+
